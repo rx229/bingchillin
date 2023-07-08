@@ -172,4 +172,4 @@ with gr.Blocks() as block:
     submit2 = gr.Button("吃了")
     submit2.click(chillin, inputs=[message, state], outputs=[chatbot, state])
     
-block.launch(inline = False)
+block.launch(share=True)
